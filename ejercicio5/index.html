@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio_5</title>
+    <link rel="stylesheet" href="ejercicio5.css">
+    <script defer src="ejercicio5.js"></script>
+</head>
+<body>
+    <button onclick="showAlert()">Mostrar Alerta</button>
+    <button onclick="showConfirm()">Mostrar Confirmación</button>
+    <button onclick="showPrompt()">Mostrar Prompt</button>
+
+    <dialog id="alertDialog">
+        <p id="alertMessage"></p>
+        <button onclick="closeDialog('alertDialog')">Aceptar</button>
+    </dialog>
+
+    <dialog id="confirmDialog">
+        <p id="confirmMessage"></p>
+        <button onclick="confirmResponse(true)">Aceptar</button>
+        <button onclick="confirmResponse(false)">Cancelar</button>
+    </dialog>
+
+    <dialog id="promptDialog">
+        <p id="promptMessage"></p>
+        <input type="text" id="promptInput">
+        <button onclick="promptResponse()">Aceptar</button>
+        <button onclick="closeDialog('promptDialog')">Cancelar</button>
+    </dialog>
+</body>
+</html>

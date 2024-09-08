@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "name": "remera",
+        "description": "remera deportiva",
+        "price": 8000,
+        "image": "img/remera.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Pantalón",
+        "description": "Pantalon running ",
+        "price": 7500,
+        "image": "img/pantalon.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Zapatillas",
+        "description": "Zapatillas deportivas para correr",
+        "price": 80000,
+        "image": "img/zapatillas.jpg"
+    }
+]
